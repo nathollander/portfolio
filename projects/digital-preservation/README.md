@@ -148,19 +148,30 @@ For community archives and smaller collecting organizations, accessible preserva
 ---
 
 # Repository Contents
+# Repository Contents
+
+The full project files and sub-directories can be viewed in the [Lydia Otero BagIt Project folder](https://github.com).
+
 ```text
-├── documentation/
+├── 01_source_metadata/
+│   └── lydia_otero_inventory.xlsx
+│
+├── 02_original_files/
+│   └── (Omitted due to rights restrictions)
+│
+├── 03_bag/
+│   ├── bagit.txt
+│   ├── bag-info.txt
+│   ├── manifest-sha256.txt
+│   └── data/
+│
+├── 04_documentation/
 │   ├── provenance.md
 │   ├── workflow.md
 │   └── validation_report.md
 │
-├── metadata/
-│   └── lydia_otero_inventory.xlsx
-│
-├── screenshots/
-│   ├── validation_success.png
-│   └── fixity_test_failure.png
-│
-└── sample_structure/
-    └── bag_structure.txt
+└── 05_screenshots/
+    ├── validation_success.png
+    └── fixity_test_failure.png
 ```
+
