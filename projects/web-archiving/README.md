@@ -38,5 +38,5 @@ To make the file accessible to researchers without forcing them to download raw 
 
 ---
 
-## 💡 Archival Reflection
+## Archival Reflection
 Modern queer and marginalized community organizing happens primarily on social media and dynamic web platforms. If archivists rely solely on traditional paper-collecting mandates, decades of local history will be wiped out by server expiration or link rot. Knowing how to capture high-fidelity WARC files ensures that community archives can capture history in real-time, preserving the authentic digital experience for future researchers.
