@@ -4,6 +4,8 @@
 
 This project demonstrates a digital preservation workflow for publicly accessible digitized archival materials from the **Lydia R. Otero Archive at Los Angeles Public Library Special Collections**.
 
+You can explore the project directory structure, metadata, and files directly in the [Lydia Otero BagIt Project folder](https://github.com/nathollander/lydia-otero-bagit-preservation-workflow/tree/main/Lydia_Otero_Bagit_Project%20copy). Payload files have been omitted for demonstration purposes, due to repository rights restrictions. Original files were accessed through the Los Angeles Public Library digital collections platform.
+
 Using the Library of Congress BagIt File Packaging Format, this workflow establishes a standardized preservation package, creates SHA-256 fixity information, and validates the integrity of digitized archival objects.
 
 The purpose of this project was to demonstrate practical application of digital preservation concepts including:
