@@ -2,7 +2,7 @@
 
 Welcome to my professional repository. I am a current MLIS student specializing in archives, preservation, and community-centered digital curation. This repository contains the source code for my technical portfolio and serves as a directory for my technical projects.
  
-**View my live portfolio website here:** [https://nathollander.github.io/portfolio/](https://nathollander.github.io/portfolio/) 
+**View the live website here:** [https://nathollander.github.io/portfolio/](https://nathollander.github.io/portfolio/) 
 
 
 Technical Skill Stack
