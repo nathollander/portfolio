@@ -41,5 +41,5 @@ f823bc891a27de45f8cde01a23bcde45f6789ab01234cd5678ef0123456789ab  data/pride_pos
 
 ---
 
-## 💡 Archival Reflection
+## Archival Reflection
 Independent, community-run organizations often lack the enterprise servers of major academic libraries. Implementing a standard tool like BagIt allows small archives to verify file integrity on standard desktop computers. Running regular fixity checks against these SHA-256 manifests guarantees that community history remains completely uncorrupted over generations of server migrations.
