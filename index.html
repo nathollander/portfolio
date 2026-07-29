@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nat Hollander | Digital Preservation & Systems Portfolio</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a class="logo" href="#">Nat Hollander</a>
+            <ul class="nav-links">
+                <li><a onclick="switchPage('home')" id="nav-home" class="active">Home</a></li>
+                <li><a onclick="switchPage('projects')" id="nav-projects">Technical Projects</a></li>
+                <li><a onclick="switchPage('about')" id="nav-about">About & Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HOME PAGE LAYER -->
+        <section id="page-home" class="page active">
+            <div class="hero">
+                <h1>Digital Preservation & Systems Portfolio</h1>
+                <p>Hello! I am an MLIS student specializing in archives, preservation, and community-centered digital stewardship. This website showcases my technical implementation of archival metadata schemas, digital preservation guardrails, and web archiving strategies.</p>
+                <p>Use the navigation tabs above to browse my live case studies.</p>
+            </div>
+            <h2>Core Technical Expertise</h2>
+            <ul>
+                <li><strong>Standards:</strong> DACS, EAD XML, PBCore, Dublin Core, Homosaurus Vocabulary</li>
+                <li><strong>Systems:</strong> ArchivesSpace, Omeka S, Git Version Control</li>
+                <li><strong>Web Coding:</strong> HTML5, CSS3, JavaScript</li>
+            </ul>
+        </section>
+
+        <!-- PROJECTS PAGE LAYER -->
+        <section id="page-projects" class="page">
+            <h1>Technical Case Studies</h1>
+            
+            <!-- Contextual Introduction Block -->
+            <div style="background: #edf2f7; padding: 1.5rem; border-radius: 6px; margin-bottom: 2rem;">
+                <p style="margin-bottom: 0; font-size: 1rem; color: #4a5568;">
+                    <strong>Archival Context:</strong> Independent community archives often handle rapid, high-volume ingestions of fragile media formats with lean staffing models. The case studies below demonstrate my practical competency in building programmatic preservation guardrails. Each module acts as a reproducible template for stabilizing incoming collections, protecting data integrity, and expanding community access pathways.
+                </p>
+            </div>
+
+            <!-- CASE STUDY 1 -->
+            <div class="card">
+                <h2>1. Audiovisual Cataloging using PBCore</h2>
+                <p><strong>Objective:</strong> Map moving image parameters using a structured schema paired with radical community-led vocabularies to maximize marginalized historical discovery.</p>
+                <p><strong>Context & Why It Matters:</strong> Traditional metadata structures often fail to capture critical technical specifications of analog tapes, leading to poor preservation. By pairing the technical taxonomy of PBCore with the progressive identity terminology of the Homosaurus, I built a record that ensures historical media remains both functionally sustainable and accurately discoverable for researchers.</p>
+                
+                <p style="font-size: 0.95rem; margin-bottom: 0.5rem;"><strong>Syntax Overview:</strong></p>
+<pre>&lt;pbcoreDescriptionDocument xmlns="http://pbcore.org"&gt;
+  &lt;pbcoreIdentifier source="Local ID"&gt;QA-1992-OH-042&lt;/pbcoreIdentifier&gt;
+  &lt;pbcoreTitle titleType="Formal"&gt;Interview with June Mazer and Activists&lt;/pbcoreTitle&gt;
+  &lt;pbcoreSubject source="Homosaurus" ref="https://homosaurus.org"&gt;Lesbian activism&lt;/pbcoreSubject&gt;
+  &lt;pbcoreInstantiation&gt;
+    &lt;instantiationDigital&gt;video/mp4&lt;/instantiationDigital&gt;
+  &lt;/pbcoreInstantiation&gt;
+&lt;/pbcoreDescriptionDocument&gt;</pre>
+                
+                <a href="https://github.com/nathollander/nathollander/tree/main/projects/pbcore-metadata" target="_blank" style="display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: var(--accent); color: var(--white); text-decoration: none; border-radius: 4px; font-weight: 500; font-size: 0.9rem;">View Full Schema & Documentation on GitHub →</a>
+            </div>
+
+            <!-- CASE STUDY 2 -->
+            <div class="card">
+                <h2>2. Digital Preservation & Ingest using BagIt</h2>
+                <p><strong>Objective:</strong> Ensure baseline file integrity and safe transfers for incoming born-digital community collections, protecting files against bit rot.</p>
+                <p><strong>Context & Why It Matters:</strong> Digital materials are profoundly fragile; files can silently corrupt over time simply by being moved between drives. This workflow utilizes the Library of Congress BagIt specification to wrap digital assets in a secure directory "bag," embedding automatic cryptographic fingerprints (SHA-256) to establish a permanent chain of custody upon initial ingest.</p>
+                
+                <p style="font-size: 0.95rem; margin-bottom: 0.5rem;"><strong>Directory Architecture:</strong></p>
+<pre>pride-committee-collection/
+├── bagit.txt                 # Declares RFC 8493 formatting
+├── manifest-sha256.txt       # Preservation cryptographic hashes
+└── data/                     # THE PAYLOAD (Untouched digital files)
+    ├── minutes_2005.pdf      (SHA-256: 5e884898da28...)
+    └── pride_poster_2007.jpg (SHA-256: f823bc891a27...)</pre>
+                
+                <a href="https://github.com/nathollander/nathollander/tree/main/projects/digital-preservation" target="_blank" style="display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: var(--accent); color: var(--white); text-decoration: none; border-radius: 4px; font-weight: 500; font-size: 0.9rem;">View Fixity Logs & Manifest Architecture on GitHub →</a>
+            </div>
+
+            <!-- CASE STUDY 3 -->
+            <div class="card">
+                <h2>3. Web Archiving & Capturing Grassroots Ephemera</h2>
+                <p><strong>Objective:</strong> Capture, preserve, and render high-fidelity, interactive snapshots of ephemeral community websites and online mutual aid directories to prevent link rot.</p>
+                <p><strong>Context & Why It Matters:</strong> Modern community history unfolds rapidly on platforms that vanish without notice when hosting fees lapse or group dynamics shift. This study shows how to crawl reactive, JavaScript-heavy community bulletin spaces to lock them into standardized, archival WARC containers—safeguarding the authentic interactive experience of internet history.</p>
+                
+                <p style="font-size: 0.95rem; margin-bottom: 0.5rem;"><strong>Integration Syntax:</strong></p>
+<pre>&lt;script src="https://unpkg.com"&gt;&lt;/script&gt;
+&lt;replay-web-page 
+  src="assets/warc/local-lgbtq-mutual-aid-2026.warc" 
+  url="https://example-mutual-aid-group.org"&gt;
+&lt;/replay-web-page&gt;</pre>
+                
+                <a href="https://github.com/nathollander/nathollander/tree/main/projects/web-archiving" target="_blank" style="display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: var(--accent); color: var(--white); text-decoration: none; border-radius: 4px; font-weight: 500; font-size: 0.9rem;">View Crawl Logs & Harvesting Documentation on GitHub →</a>
+            </div>
+        </section>
+
+        <!-- ABOUT & CONTACT PAGE LAYER -->
+        <section id="page-about" class="page">
+            <h1>About Me</h1>
+            <p>I will graduate with my Master of Library and Information Science (MLIS) in December of 2026, with coursework concentrating in archives and preservation. In my projects,I focus heavily on the intersection of technical infrastructure and ethical curation, especially within LGBTQ+ community history initiatives.</p>
+            <p>You can view my website <a href="https://nathollanderportfolio.wordpress.com" target="_blank">here</a></li> </p>
+
+            <h2>Let's Connect</h2>
+            <p>I am looking to bring my processing, web layout, and metadata skills to forward-thinking repositories and community archives. My areas of expertise are LGBTQ+ histories and bilingual (Spanish/English) collections.</p>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:loremipsumfan@proton.me">loremipsumfan@proton.me</a></li>
+                <li><strong>Return to my Github Profile:</strong> <a href="https://github.com/nathollander/nathollander" target="_blank">https://github.com/nathollander/nathollander</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Nat Hollander. Built natively via custom HTML, CSS, and JavaScript.</p>
+    </footer>
+
+    <!-- JavaScript Single Page App Engine -->
+    <script>
+        function switchPage(pageId) {
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => page.classList.remove('active'));
+
+            const navLinks = document.querySelectorAll('.nav-links a');
+            navLinks.forEach(link => link.classList.remove('active'));
+
+            document.getElementById('page-' + pageId).classList.add('active');
+            document.getElementById('nav-' + pageId).classList.add('active');
+        }
+    </script>
+</body>
+</html>
