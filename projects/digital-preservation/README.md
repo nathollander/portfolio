@@ -1,45 +1,162 @@
-# Project Case Study: Digital Preservation & Ingest using BagIt
+# Digital Preservation Workflow: BagIt Packaging for Digitized LGBTQ+ Archival Materials
 
-## Objective
-To establish a verifiable, secure chain of custody and baseline fixity for digital-born community materials upon ingest into an archival repository.
+## Project Overview
 
-## Tools & Standards Used
-* **Specification:** Library of Congress BagIt File Packaging Format (RFC 8493)
-* **Software:** Library of Congress Bagger GUI tool
-* **Algorithm:** SHA-256 Cryptographic Checksum
+This project demonstrates a digital preservation workflow for publicly accessible digitized archival materials from the **Lydia R. Otero Archive at Los Angeles Public Library Special Collections**.
 
-## The Scenario
-A local grassroots organizer donates a collection of digital files containing minutes, posters, and flyers from local pride organizing committees from 2005 to 2010. To prevent silent file corruption ("bit rot") and prove the files were not altered during transfer, the assets must be packaged into a standardized directory structure called a "bag."
+Using the Library of Congress BagIt File Packaging Format, this workflow establishes a standardized preservation package, creates SHA-256 fixity information, and validates the integrity of digitized archival objects.
 
----
+The purpose of this project was to demonstrate practical application of digital preservation concepts including:
 
-## The Structural Architecture of the "Bag"
-
-Below is the file directory structure generated for this collection. The `data/` directory holds the original payload, while the root text files serve as the preservation manifests.
-
-```text
-pride-committee-collection/
-├── bagit.txt                 # Declares the BagIt version and encoding character set (UTF-8)
-├── bag-info.txt              # Administrative metadata (Donor info, contact, bag date, size)
-├── manifest-sha256.txt       # The critical preservation file containing checksums for all data files
-├── tagmanifest-sha256.txt    # Verifies the integrity of the manifest files themselves
-└── data/                     # THE PAYLOAD (Untouched original archival assets)
-    ├── minutes_2005.pdf
-    ├── minutes_2006.pdf
-    ├── pride_poster_2007.jpg
-    └── outreach_flyer_2010.png
-```
-
-### The Manifest File (`manifest-sha256.txt`)
-Inside the manifest, every file in the payload is assigned a unique cryptographic fingerprint. If even a single letter in a PDF is changed, the checksum breaks, alerting the archivist to file corruption:
-
-```text
-5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8  data/minutes_2005.pdf
-a1b2c3d4e5f61234567890abcdef1234567890abcdef1234567890abcdef1234  data/minutes_2006.pdf
-f823bc891a27de45f8cde01a23bcde45f6789ab01234cd5678ef0123456789ab  data/pride_poster_2007.jpg
-```
+- preservation packaging
+- cryptographic checksums
+- fixity verification
+- provenance documentation
+- ethical use of archival digital objects
 
 ---
 
-## Archival Reflection
-Independent, community-run organizations often lack the enterprise servers of major academic libraries. Implementing a standard tool like BagIt allows small archives to verify file integrity on standard desktop computers. Running regular fixity checks against these SHA-256 manifests guarantees that community history remains completely uncorrupted over generations of server migrations.
+# Source Collection
+
+**Repository:** Los Angeles Public Library Special Collections
+
+**Collection:** Lydia R. Otero Archive
+
+**Selected Materials:** Digitized ephemera created by Lesbianas Unidas of Gay and Lesbian Latinos Unidos documenting Latina lesbian community organizing, fundraising activities, and conference events.
+
+Selected digital objects include:
+
+- Fundraiser for Lesbianas Unidas at Robbie's Disco (1987)
+- Festejemos una noche de baile Latina
+- 1st annual Hair Cut-A-Thon (1987)
+- First National Latina Lesbian Conference
+
+The original digital objects were accessed through the Los Angeles Public Library digital collections platform.
+
+---
+
+# Tools & Standards
+
+## Specification
+
+**BagIt File Packaging Format (RFC 8493)**
+
+BagIt is a hierarchical file packaging format used to organize digital content and associated metadata for reliable transfer and storage.
+
+## Software
+
+**Library of Congress Bagger**
+
+Used to create and validate the BagIt preservation package.
+
+## Fixity Algorithm
+
+**SHA-256 Cryptographic Checksum**
+
+SHA-256 hashes provide a unique digital fingerprint for each payload file. These checksums allow archivists to detect unintended changes to files after transfer or storage.
+
+---
+
+# Preservation Workflow
+
+## 1. Metadata Capture
+
+Repository-provided descriptive metadata was recorded before packaging, including:
+
+- repository identifiers
+- titles
+- creators
+- dates
+- collection information
+- rights information
+
+## 2. File Acquisition
+
+Four digitized archival objects were downloaded from the Los Angeles Public Library digital collections platform.
+
+## 3. BagIt Creation
+
+The files were packaged using Library of Congress Bagger according to the BagIt specification.
+
+The resulting package included:
+
+lydia_otero_digital_preservation_demo/
+
+├── bagit.txt
+├── bag-info.txt
+├── manifest-sha256.txt
+├── tagmanifest-sha256.txt
+│
+└── data/
+├── archives_15.jpg
+├── archives_21.jpg
+├── archives_22.jpg
+└── archives_183.jpg
+
+## 4. Fixity Generation
+
+SHA-256 checksums were generated for each payload file and recorded in the preservation manifest.
+
+## 5. Validation
+
+The completed BagIt package was validated to confirm that all payload files matched their recorded checksums.
+
+---
+
+# Validation Results
+
+## Successful Validation
+
+The completed preservation package successfully passed BagIt validation.
+
+Result: PASS
+
+
+## Controlled Fixity Test
+
+A copy of the validated BagIt package was intentionally modified by altering one payload file.
+
+The modified package was validated again.
+
+Result: FAIL
+
+
+The validation failure demonstrated that SHA-256 fixity checks can identify unauthorized changes to preserved files.
+
+---
+
+# Rights & Ethical Considerations
+
+The selected materials remain subject to the rights and reproduction restrictions established by the Los Angeles Public Library.
+
+This project uses publicly accessible digitized archival materials for educational and research purposes. Original digital objects are not redistributed through this repository.
+
+Documentation and metadata are provided to demonstrate preservation workflow practices while respecting repository access policies.
+
+---
+
+# Preservation Reflection
+
+This project demonstrates how standardized preservation workflows can support responsible stewardship of community archival materials.
+
+While BagIt does not preserve the historical meaning of records by itself, it provides essential technical infrastructure by documenting file integrity, supporting reliable transfer, and enabling future verification across storage environments.
+
+For community archives and smaller collecting organizations, accessible preservation tools such as BagIt provide practical methods for strengthening long-term digital stewardship.
+
+---
+
+# Repository Contents
+├── documentation/
+│ ├── provenance.md
+│ ├── workflow.md
+│ └── validation_report.md
+│
+├── metadata/
+│ └── lydia_otero_inventory.xlsx
+│
+├── screenshots/
+│ ├── validation_success.png
+│ └── fixity_test_failure.png
+│
+└── sample_structure/
+└── bag_structure.txt
