@@ -61,26 +61,25 @@
     &lt;instantiationDigital&gt;video/mp4&lt;/instantiationDigital&gt;
   &lt;/pbcoreInstantiation&gt;
 &lt;/pbcoreDescriptionDocument&gt;</pre>
-                
-                <a href="https://github.com/nathollander/portfolio/tree/main/projects/pbcore-metadata" target="_blank" style="display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: var(--accent); color: var(--white); text-decoration: none; border-radius: 4px; font-weight: 500; font-size: 0.9rem;">View Full Schema & Documentation on GitHub →</a>
-            </div>
-
-            <!-- CASE STUDY 2 -->
+                 <!-- CASE STUDY 2 -->
             <div class="card">
                 <h2>2. Digital Preservation & Ingest using BagIt</h2>
-                <p><strong>Objective:</strong> Ensure baseline file integrity and safe transfers for incoming born-digital community collections, protecting files against bit rot.</p>
-                <p><strong>Context & Why It Matters:</strong> Digital materials are profoundly fragile; files can silently corrupt over time simply by being moved between drives. This workflow utilizes the Library of Congress BagIt specification to wrap digital assets in a secure directory "bag," embedding automatic cryptographic fingerprints (SHA-256) to establish a permanent chain of custody upon initial ingest.</p>
+                <p><strong>Objective:</strong> Ensure baseline file integrity and safe transfers for incoming digitized community collections, protecting files against bit rot.</p>
+                <p><strong>Context & Why It Matters:</strong> Digital materials are profoundly fragile; files can silently corrupt over time simply by being moved between drives. This workflow utilizes the Library of Congress BagIt specification (RFC 8493) to wrap archival digital objects from the <em>Lydia R. Otero Archive at Los Angeles Public Library Special Collections</em> into a secure preservation package, embedding cryptographic fingerprints (SHA-256) to verify data fixity upon ingest.</p>
                 
                 <p style="font-size: 0.95rem; margin-bottom: 0.5rem;"><strong>Directory Architecture:</strong></p>
-<pre>pride-committee-collection/
-├── bagit.txt                 # Declares RFC 8493 formatting
-├── manifest-sha256.txt       # Preservation cryptographic hashes
-└── data/                     # THE PAYLOAD (Untouched digital files)
-    ├── minutes_2005.pdf      (SHA-256: 5e884898da28...)
-    └── pride_poster_2007.jpg (SHA-256: f823bc891a27...)</pre>
+<pre>lydia_otero_digital_preservation_demo/
+├── 01_source_metadata/      # Descriptive metadata & inventory logs
+├── 03_bag/                  # Structured preservation package
+│   ├── bagit.txt            # Declares RFC 8493 formatting
+│   ├── manifest-sha256.txt  # SHA-256 fixity check fingerprints
+│   └── data/                # Payload (Digitized archival ephemera)
+├── 04_documentation/        # Provenance records & validation logs
+└── 05_screenshots/          # Controlled fixity check test results</pre>
                 
-                <a href="https://github.com/nathollander/portfolio/tree/main/projects/digital-preservation" target="_blank" style="display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: var(--accent); color: var(--white); text-decoration: none; border-radius: 4px; font-weight: 500; font-size: 0.9rem;">View Fixity Logs & Manifest Architecture on GitHub →</a>
-            </div>
+                <a href="https://github.com" target="_blank" style="display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: var(--accent); color: var(--white); text-decoration: none; border-radius: 4px; font-weight: 500; font-size: 0.9rem;">View Fixity Logs & Manifest Architecture on GitHub →</a>
+            </div>  
+              
 
             <!-- CASE STUDY 3 -->
             <div class="card">
