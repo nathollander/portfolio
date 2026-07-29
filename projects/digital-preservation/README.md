@@ -80,18 +80,18 @@ The files were packaged using Library of Congress Bagger according to the BagIt 
 
 The resulting package included:
 
+```text
 lydia_otero_digital_preservation_demo/
-
 ├── bagit.txt
 ├── bag-info.txt
 ├── manifest-sha256.txt
 ├── tagmanifest-sha256.txt
-│
 └── data/
-├── archives_15.jpg
-├── archives_21.jpg
-├── archives_22.jpg
-└── archives_183.jpg
+    ├── archives_15.jpg
+    ├── archives_21.jpg
+    ├── archives_22.jpg
+    └── archives_183.jpg
+```
 
 ## 4. Fixity Generation
 
@@ -146,17 +146,19 @@ For community archives and smaller collecting organizations, accessible preserva
 ---
 
 # Repository Contents
+```text
 ├── documentation/
-│ ├── provenance.md
-│ ├── workflow.md
-│ └── validation_report.md
+│   ├── provenance.md
+│   ├── workflow.md
+│   └── validation_report.md
 │
 ├── metadata/
-│ └── lydia_otero_inventory.xlsx
+│   └── lydia_otero_inventory.xlsx
 │
 ├── screenshots/
-│ ├── validation_success.png
-│ └── fixity_test_failure.png
+│   ├── validation_success.png
+│   └── fixity_test_failure.png
 │
 └── sample_structure/
-└── bag_structure.txt
+    └── bag_structure.txt
+```
