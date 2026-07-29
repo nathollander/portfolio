@@ -31,3 +31,10 @@ Where:
 Preserved files follow the structure:
 
 `identifier_creator-description.extension`
+
+Examples:
+SDLD-004_sdlgbtcenter_lesbian-cafe-flyer.png
+SDLD-002_gossipgrill_pride-event.warc
+SDLD-006_wordsd_volume3issue7.warc
+
+
