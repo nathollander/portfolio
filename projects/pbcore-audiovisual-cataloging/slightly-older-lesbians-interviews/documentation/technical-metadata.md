@@ -81,6 +81,15 @@ Lambda Archives of San Diego
 Lavf60.3.100
 
 ---
+## Technical Characterization Tool
+
+Technical metadata was extracted using FFprobe, part of the FFmpeg multimedia framework.
+
+Command used:
+
+```bash
+ffprobe -v quiet -print_format json -show_format -show_streams PB-1991-SOL-001_access-copy.mp4
+```
 
 ## Preservation Notes
 
