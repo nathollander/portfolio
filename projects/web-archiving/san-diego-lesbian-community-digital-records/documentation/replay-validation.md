@@ -52,7 +52,64 @@ The WARC file successfully replayed in ReplayWeb.page. The captured event webpag
 ## Notes
 
 This capture demonstrates preservation of a contemporary community event webpage documenting lesbian-centered social programming in San Diego. The WARC file preserves the webpage structure, associated digital assets, and contextual information that may be unavailable if the original webpage is modified or removed.
-# Replay Validation Log
+
+## SDLD-003 — San Diego Pride Dyke March Announcement Reel
+
+## Object Information
+
+**Identifier:** SDLD-003
+
+**Title:** San Diego Pride Dyke March Announcement Reel
+
+**Creator:** San Diego Pride (@sandiegopride)
+
+**Original URL:**  
+https://www.instagram.com/reels/DaoyCO_hda7/
+
+**Material Type:**  
+Social media audiovisual record
+
+**Preservation Format:**  
+WARC 1.1 (ISO 28500:2017)
+
+**Capture Tool:**  
+ArchiveWeb.page 0.16.2
+
+**Replay Tool:**  
+ReplayWeb.page
+
+**Capture Date:**  
+2026-07-29
+
+---
+
+## Validation Procedure
+
+The preserved WARC file was loaded into ReplayWeb.page to verify successful replay of the captured Instagram Reel.
+
+Validation included:
+
+- loading the WARC file successfully
+- accessing the captured Instagram Reel URL
+- verifying that captured audiovisual content rendered correctly
+- confirming that associated webpage resources loaded within the replay environment
+- confirming that the archived content was accessible without relying on the live Instagram platform
+
+---
+
+## Validation Result
+
+**Status:** Successful
+
+The WARC file successfully loaded in ReplayWeb.page. The captured Instagram Reel and associated webpage resources were successfully replayed, demonstrating preservation of a born-digital audiovisual community record.
+
+---
+
+## Notes
+
+This capture demonstrates preservation of social media content created for contemporary lesbian community organizing and event promotion. Social media platforms present preservation challenges due to changing interfaces, platform policies, algorithmic delivery systems, and potential content removal.
+
+The captured Reel preserves evidence of San Diego Pride's Dyke March outreach, including event logistics, community messaging, and the use of Instagram as a primary communication channel for contemporary lesbian community events.
 
 ## SDLD-006 — The WORD San Diego Volume 3 Issue 7
 
