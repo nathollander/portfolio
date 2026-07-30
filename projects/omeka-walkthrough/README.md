@@ -13,7 +13,7 @@ The exhibit, **"Lesbian Print Culture in Los Angeles, 1947–1999,"** explores h
 Using Omeka Classic, I created a small digital collection that demonstrates how archival materials can be described, organized, and interpreted through a digital collections platform.
 
 ## Walkthrough Video
-[tab:https://www.youtube.com/watch?v=qTQbAV0d_jU]
+[https://www.youtube.com/watch?v=qTQbAV0d_jU]
 
 ## Technical Workflow Demonstrated
 
