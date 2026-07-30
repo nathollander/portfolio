@@ -47,21 +47,22 @@
             </div>
 
             <!-- CASE STUDY 1 -->
-            <div class="card">
-                <h2>1. Audiovisual Cataloging using PBCore</h2>
-                <p><strong>Objective:</strong> Map moving image parameters using a structured schema paired with radical community-led vocabularies to maximize marginalized historical discovery.</p>
-                <p><strong>Context & Why It Matters:</strong> Traditional metadata structures often fail to capture critical technical specifications of analog tapes, leading to poor preservation. By pairing the technical taxonomy of PBCore with the progressive identity terminology of the Homosaurus, I built a record that ensures historical media remains both functionally sustainable and accurately discoverable for researchers.</p>
-                
-                <p style="font-size: 0.95rem; margin-bottom: 0.5rem;"><strong>Syntax Overview:</strong></p>
-<pre>&lt;pbcoreDescriptionDocument xmlns="http://pbcore.org"&gt;
-  &lt;pbcoreIdentifier source="Local ID"&gt;QA-1992-OH-042&lt;/pbcoreIdentifier&gt;
-  &lt;pbcoreTitle titleType="Formal"&gt;Interview with June Mazer and Activists&lt;/pbcoreTitle&gt;
-  &lt;pbcoreSubject source="Homosaurus" ref="https://homosaurus.org"&gt;Lesbian activism&lt;/pbcoreSubject&gt;
-  &lt;pbcoreInstantiation&gt;
-    &lt;instantiationDigital&gt;video/mp4&lt;/instantiationDigital&gt;
-  &lt;/pbcoreInstantiation&gt;
-&lt;/pbcoreDescriptionDocument&gt;</pre>
-                </div>
+        <!-- CASE STUDY 1 -->
+<div class="card">
+    <h2>1. Audiovisual Cataloging using PBCore</h2>
+    <p><strong>Objective:</strong> Apply structured audiovisual metadata standards to document the relationship between original analog carriers and digital derivatives while improving discovery of community-based archival recordings.</p>
+    <p><strong>Context & Why It Matters:</strong> Audiovisual materials require specialized metadata to preserve both their technical characteristics and cultural context. This workflow applies the PBCore metadata standard to a digitized interview collection from <em>Lambda Archives of San Diego</em>, incorporating descriptive metadata, contributor information, technical instantiation details, rights documentation, and community-centered subject terminology using Homosaurus.</p>
+    
+    <p style="font-size: 0.95rem; margin-bottom: 0.5rem;"><strong>Metadata Structure:</strong></p>
+<pre>slightly-older-lesbians-interviews/
+├── source-metadata/          # Original repository description & provenance
+├── documentation/            # Mapping, technical metadata & preservation notes
+├── pbcore/                   # PBCore XML metadata record
+│   └── slightly-older-lesbians-interviews.xml
+└── README.md                 # Workflow overview & methodology</pre>
+
+<a href="https://github.com/nathollander/portfolio/tree/main/projects/pbcore-audiovisual-cataloging/slightly-older-lesbians-interviews" target="_blank" style="display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: var(--accent); color: var(--white); text-decoration: none; border-radius: 4px; font-weight: 500; font-size: 0.9rem;">Explore Full Case Study Repository on GitHub →</a>
+</div>
                  <!-- CASE STUDY 2 -->
             <div class="card">
                 <h2>2. Digital Preservation & Ingest using BagIt</h2>
