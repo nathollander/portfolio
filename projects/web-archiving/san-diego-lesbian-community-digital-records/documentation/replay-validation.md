@@ -168,3 +168,41 @@ The WARC file successfully loaded in ReplayWeb.page. The captured Heyzine public
 This capture demonstrates preservation of a third-party hosted digital publication. Although the publication was presented through an interactive flipbook interface, the underlying PDF publication file was successfully captured as part of the web archive.
 
 The item documents contemporary San Diego lesbian and LGBTQ+ community history through a community-produced publication. Preservation of this resource mitigates risks associated with third-party hosting platforms, link rot, and changes to digital publication services.
+
+# SDLD-005 Replay Validation
+
+## Resource
+On The Spot Dating Show: Sapphic Singles Event  
+Original URL: https://www.eventbrite.com/e/on-the-spot-dating-show-sapphic-singles-event-tickets-1992263728442
+
+## Capture Format
+WARC 1.1
+
+## Validation Date
+2026-07-29
+
+## Replay Environment
+ReplayWeb.page 0.16.2
+
+## Validation Results
+
+The archived WARC file was successfully opened in ReplayWeb.page. The captured Eventbrite resource loaded and preserved the underlying webpage source and structured event metadata.
+
+The replay capture successfully preserved:
+- Event title
+- Event description
+- Organizer information
+- Venue information
+- Event date and time
+- Structured Schema.org event metadata
+- FAQ and event detail data embedded within the webpage source
+
+## Limitations
+
+The Eventbrite webpage relies heavily on JavaScript rendering. During replay, the initial webpage interface briefly loaded before transitioning to the captured HTML and embedded scripts rather than maintaining the full interactive Eventbrite interface.
+
+Dynamic features including ticket purchasing, authentication, analytics, and third-party integrations were not considered preservation priorities.
+
+## Assessment
+
+Replay validation successful. The WARC file preserves sufficient content to document the event listing as contemporary San Diego lesbian community digital records.
