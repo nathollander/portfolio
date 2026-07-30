@@ -1,37 +1,76 @@
-# Nat Hollander's Digital Preservation Portfolio
+# Nat Hollander's Digital Preservation & Archival Systems Portfolio
 
-Welcome to my professional repository. I am a current MLIS student specializing in archives, preservation, and community-centered digital curation. This repository contains the source code for my technical portfolio and serves as a directory for my technical projects.
- 
-**View the live website here:** [https://nathollander.github.io/portfolio/](https://nathollander.github.io/portfolio/) 
+Welcome to my professional portfolio repository. I am a current Master of Library and Information Science (MLIS) student specializing in archives, preservation, and community-centered digital stewardship.
 
+This repository contains the source code for my portfolio website and documents technical archival workflows demonstrating metadata creation, digital preservation practices, audiovisual description, and web archiving methodologies.
 
-Technical Skill Stack
+**View the live portfolio website:**  
+https://nathollander.github.io/portfolio/
 
-* **Metadata & Description Standards:** DACS, EAD XML, PBCore, Dublin Core, Homosaurus
-* **Systems & Platforms:** ArchivesSpace, Omeka (Classic/S), GitHub Version Control
-* **Web Languages:** HTML5, CSS3, basic JavaScript
+---
 
-Project Directory & Case Studies
+## Technical Skills & Standards
 
-This repository is organized into distinct project folders to demonstrate my hands-on technical competencies:
+* **Metadata & Description Standards:** DACS, EAD XML, PBCore, Dublin Core, Homosaurus Vocabulary
+* **Digital Preservation Workflows:** BagIt (RFC 8493), SHA-256 fixity verification, provenance documentation, technical metadata extraction
+* **Web Archiving:** WARC capture, replay validation, born-digital appraisal workflows
+* **Systems & Platforms:** ArchivesSpace, Omeka Classic/S, GitHub Version Control
+* **Web Development:** HTML5, CSS3, JavaScript
 
-* **`/projects/web-archiving`**
-  * *Focus:* Interactive web crawl capture (WARC format).
-  * *Tools used:* ArchiveWeb.page, ReplayWeb.page.
-  * *Significance:* Demonstrates preservation of ephemeral community activism and digital zines.
+---
 
-* **`/projects/digital-preservation`**
-  * *Focus:* Checksum-verified digital "bag" ingestion.
-  * *Tools used:* Library of Congress BagIt specification (Bagger GUI).
-  * *Significance:* Demonstrates ability to securely stabilize and verify digital assets against data corruption.
+## Project Directory & Case Studies
 
-* **`/projects/pbcore-metadata`**
-  * *Focus:* Structural metadata mapping for audiovisual materials.
-  * *Tools used:* XML/Spreadsheet mapping.
-  * *Significance:* Ensures discoverability for complex oral history video and audio formats.
+This repository contains reproducible archival workflows demonstrating practical applications of digital preservation and metadata standards.
 
+### `/projects/pbcore-audiovisual-cataloging`
 
-## Contact Info
+**Focus:** Audiovisual metadata creation and technical description using PBCore.
 
-* **Email:** [loremipsumfan@proton.me]
-* **Website:** [https://nathollanderportfolio.wordpress.com/]
+**Workflow demonstrates:**
+- Mapping descriptive, structural, and technical metadata for digitized audiovisual materials
+- Documenting relationships between original physical carriers and digital derivatives
+- Applying community-centered descriptive practices using Homosaurus terminology
+
+**Tools & Standards:** PBCore XML, ffprobe technical characterization, Git version control
+
+---
+
+### `/projects/digital-preservation`
+
+**Focus:** Digital preservation ingest and fixity verification using BagIt.
+
+**Workflow demonstrates:**
+- Creating structured preservation packages using the Library of Congress BagIt specification (RFC 8493)
+- Generating and validating SHA-256 checksums
+- Recording provenance, workflow documentation, and validation results
+
+**Tools & Standards:** BagIt, SHA-256 fixity checks, Bagger, preservation documentation
+
+---
+
+### `/projects/web-archiving`
+
+**Focus:** Capturing and preserving born-digital community records.
+
+**Workflow demonstrates:**
+- Appraisal and selection of web-based cultural materials
+- WARC capture and preservation documentation
+- Replay validation and ethical considerations for community digital records
+
+**Tools & Standards:** ArchiveWeb.page, ReplayWeb.page, WARC
+
+---
+
+## About This Repository
+
+These case studies focus on the intersection of technical infrastructure and ethical archival practice, particularly within community-based collections. Each workflow emphasizes sustainable preservation practices while maintaining the historical context and cultural meaning of archival materials.
+
+---
+
+## Contact
+
+**Email:** loremipsumfan@proton.me
+
+**Professional Website:**  
+https://nathollanderportfolio.wordpress.com/
