@@ -65,45 +65,6 @@ This capture preserves social media-based community organizing and event outreac
 
 ---
 
-# SDLD-004 — Lesbian Cafe Discussion Group Promotional Flyer
-
-**Original URL:**  
-https://thecentersd.org/wp-content/uploads/2021/12/Lesbian-Cafe-Both-Times.png
-
-**Creator:** The San Diego LGBT Community Center
-
-**Material Type:** Digital event flyer (PNG)
-
-**Validation Result:** Successful
-
-The captured PNG file opened successfully and matched the preserved file inventory record.
-
-**Notes:**  
-This capture preserves digital event ephemera documenting lesbian community programming, recurring discussion groups, and community infrastructure.
-
----
-
-# SDLD-005 — On The Spot Dating Show: Sapphic Singles Event
-
-**Original URL:**  
-https://www.eventbrite.com/e/on-the-spot-dating-show-sapphic-singles-event-tickets-1992263728442
-
-**Creator:** On The Spot Dating
-
-**Material Type:** Event listing
-
-**Validation Result:** Successful
-
-The WARC file successfully replayed in ReplayWeb.page. The capture preserved event title, description, organizer information, venue details, event date and time, structured Schema.org metadata, and FAQ content.
-
-**Limitations:**  
-The Eventbrite page relies heavily on JavaScript rendering. The replay preserved the underlying webpage source and embedded metadata, but some interactive features were not retained. Ticketing, authentication, analytics, and third-party integrations were not considered preservation priorities.
-
-**Notes:**  
-This capture preserves a contemporary sapphic community event listing hosted through a commercial event platform.
-
----
-
 # SDLD-006 — The WORD San Diego Volume 3 Issue 7
 
 **Original URL:**  
