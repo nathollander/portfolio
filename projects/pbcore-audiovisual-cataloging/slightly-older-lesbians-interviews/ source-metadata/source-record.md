@@ -2,51 +2,61 @@
 
 ## Original Repository Record
 
-Repository:
+**Repository:**  
 Lambda Archives of San Diego
 
-Discovery Platform:
+**Discovery Platform:**  
 California Revealed
 
-Title:
+**Title:**  
 Women's interviews for Slightly Older Lesbians
 
-Call Number:
+**Repository Call Number:**  
 33
 
-Media Type:
+**Media Type:**  
 Moving Image
 
-Original Format:
+**Original Format:**  
 1/2 inch videotape
 
-Extent:
+**Extent:**  
 1 tape
 
-Date Created:
+**Created Date:**  
 July 20, 1991
 
-Color:
+**Color:**  
 Color
 
-Sound:
+**Sound:**  
 Sound
 
-Creator:
-Lesbian and Gay Archives of San Diego
-
-Contributing Organization:
-Lambda Archives of San Diego
-
-Language:
+**Language:**  
 English
 
-Geographic Coverage:
+**Genre:**  
+Filmed interviews
+
+**Creator:**  
+Lesbian and Gay Archives of San Diego
+
+**Contributing Organization:**  
+Lambda Archives of San Diego
+
+**Geographic Coverage:**  
 San Diego, California, United States
 
-Genre:
-Filmed interviews
+---
 
 ## Content Summary
 
-This recording contains interviews with members of Slightly Older Lesbians, a San Diego-based social organization. Interview participants discuss lesbian community life, LGBTQ+ veteran organizing, the AIDS crisis, racial discrimination, lesbian health activism, feminist music, and lesbian archival work.
+This video contains interviews with members of Slightly Older Lesbians, a San Diego-based social organization. Interview participants discuss lesbian community life, LGBTQ+ veteran organizing, the AIDS crisis, racial discrimination within LGBTQ+ communities, lesbian health advocacy, feminist music, artistic practice, and lesbian archival work.
+
+---
+
+## Portfolio Metadata Exercise Note
+
+This record was created as a portfolio demonstration of audiovisual metadata practices using publicly available archival description from California Revealed and Lambda Archives of San Diego.
+
+The resulting PBCore record represents an independent metadata exercise and does not replace or modify the repository's official catalog record.
