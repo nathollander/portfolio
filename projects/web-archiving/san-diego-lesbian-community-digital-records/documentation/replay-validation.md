@@ -1,208 +1,121 @@
 # Replay Validation Log
 
-## SDLD-002 — PRIDE: Parade Viewing & All Day Dance Party
+## Validation Environment
 
-## Object Information
+**Replay Tool:** ReplayWeb.page 0.16.2  
+**Capture Tool:** ArchiveWeb.page 0.16.2  
+**Validation Date:** 2026-07-29  
+**Preservation Format:** WARC 1.1 (ISO 28500:2017)
 
-**Identifier:** SDLD-002
+Each WARC file was loaded into ReplayWeb.page to verify successful replay, resource loading, and accessibility without relying on the live web resource.
 
-**Title:** PRIDE: Parade Viewing & All Day Dance Party
+---
 
-**Creator:** Gossip Grill
+# SDLD-001 — Lesbian Film Club: Drive-Away Dolls Screening Announcement
+
+**Original URL:**  
+https://www.instagram.com/p/DZqal53AVGG/
+
+**Creator:** lesbianfilmclub.sd
+
+**Material Type:** Social media event announcement
+
+**Validation Result:** Successful
+
+The WARC file successfully replayed in ReplayWeb.page. The captured Instagram post rendered correctly, including carousel images and associated post content. Related post thumbnails displayed within the archived page environment.
+
+**Notes:**  
+This capture preserves contemporary lesbian community event promotion through social media. The record documents the use of Instagram as a primary communication platform for local lesbian cultural programming.
+
+---
+
+# SDLD-002 — PRIDE: Parade Viewing & All Day Dance Party
 
 **Original URL:**  
 https://gossipgrill.com/event/pride-dance-party/
 
-**Preservation Format:**  
-WARC 1.1 (ISO 28500:2017)
+**Creator:** Gossip Grill
 
-**Capture Tool:**  
-ArchiveWeb.page 0.16.2
+**Material Type:** Event webpage
 
-**Replay Tool:**  
-ReplayWeb.page
+**Validation Result:** Successful
 
-**Capture Date:**  
-2026-07-29
+The WARC file successfully replayed in ReplayWeb.page. Page text, metadata, and visual assets loaded as expected.
 
----
-
-## Validation Procedure
-
-The preserved WARC file was loaded into ReplayWeb.page to verify successful rendering of the captured web resource.
-
-Validation included:
-
-- loading the WARC file successfully
-- opening the captured URL within the replay environment
-- verifying page text and metadata display
-- confirming visual assets loaded correctly
-- confirming the archived webpage was accessible without relying on the live website
+**Notes:**  
+This capture preserves a contemporary event webpage documenting lesbian-centered nightlife, Pride programming, and community gathering practices at a San Diego lesbian venue.
 
 ---
 
-## Validation Result
-
-**Status:** Successful
-
-The WARC file successfully replayed in ReplayWeb.page. The captured event webpage rendered with expected content and demonstrated successful preservation of the original web experience.
-
----
-
-## Notes
-
-This capture demonstrates preservation of a contemporary community event webpage documenting lesbian-centered social programming in San Diego. The WARC file preserves the webpage structure, associated digital assets, and contextual information that may be unavailable if the original webpage is modified or removed.
-
-## SDLD-003 — San Diego Pride Dyke March Announcement Reel
-
-## Object Information
-
-**Identifier:** SDLD-003
-
-**Title:** San Diego Pride Dyke March Announcement Reel
-
-**Creator:** San Diego Pride (@sandiegopride)
+# SDLD-003 — San Diego Pride Dyke March Announcement Reel
 
 **Original URL:**  
 https://www.instagram.com/reels/DaoyCO_hda7/
 
-**Material Type:**  
-Social media audiovisual record
+**Creator:** San Diego Pride (@sandiegopride)
 
-**Preservation Format:**  
-WARC 1.1 (ISO 28500:2017)
+**Material Type:** Social media audiovisual record
 
-**Capture Tool:**  
-ArchiveWeb.page 0.16.2
+**Validation Result:** Successful
 
-**Replay Tool:**  
-ReplayWeb.page
+The WARC file successfully replayed in ReplayWeb.page. The captured Instagram Reel and associated webpage resources loaded within the replay environment.
 
-**Capture Date:**  
-2026-07-29
+**Notes:**  
+This capture preserves social media-based community organizing and event outreach. The record documents the role of Instagram in contemporary lesbian community communication and event promotion.
 
 ---
 
-## Validation Procedure
+# SDLD-004 — Lesbian Cafe Discussion Group Promotional Flyer
 
-The preserved WARC file was loaded into ReplayWeb.page to verify successful replay of the captured Instagram Reel.
+**Original URL:**  
+https://thecentersd.org/wp-content/uploads/2021/12/Lesbian-Cafe-Both-Times.png
 
-Validation included:
+**Creator:** The San Diego LGBT Community Center
 
-- loading the WARC file successfully
-- accessing the captured Instagram Reel URL
-- verifying that captured audiovisual content rendered correctly
-- confirming that associated webpage resources loaded within the replay environment
-- confirming that the archived content was accessible without relying on the live Instagram platform
+**Material Type:** Digital event flyer (PNG)
 
----
+**Validation Result:** Successful
 
-## Validation Result
+The captured PNG file opened successfully and matched the preserved file inventory record.
 
-**Status:** Successful
-
-The WARC file successfully loaded in ReplayWeb.page. The captured Instagram Reel and associated webpage resources were successfully replayed, demonstrating preservation of a born-digital audiovisual community record.
+**Notes:**  
+This capture preserves digital event ephemera documenting lesbian community programming, recurring discussion groups, and community infrastructure.
 
 ---
 
-## Notes
+# SDLD-005 — On The Spot Dating Show: Sapphic Singles Event
 
-This capture demonstrates preservation of social media content created for contemporary lesbian community organizing and event promotion. Social media platforms present preservation challenges due to changing interfaces, platform policies, algorithmic delivery systems, and potential content removal.
+**Original URL:**  
+https://www.eventbrite.com/e/on-the-spot-dating-show-sapphic-singles-event-tickets-1992263728442
 
-The captured Reel preserves evidence of San Diego Pride's Dyke March outreach, including event logistics, community messaging, and the use of Instagram as a primary communication channel for contemporary lesbian community events.
+**Creator:** On The Spot Dating
 
-## SDLD-006 — The WORD San Diego Volume 3 Issue 7
+**Material Type:** Event listing
 
-## Object Information
+**Validation Result:** Successful
 
-**Identifier:** SDLD-006
+The WARC file successfully replayed in ReplayWeb.page. The capture preserved event title, description, organizer information, venue details, event date and time, structured Schema.org metadata, and FAQ content.
 
-**Title:** The WORD San Diego Volume 3 Issue 7
+**Limitations:**  
+The Eventbrite page relies heavily on JavaScript rendering. The replay preserved the underlying webpage source and embedded metadata, but some interactive features were not retained. Ticketing, authentication, analytics, and third-party integrations were not considered preservation priorities.
 
-**Creator:** The WORD San Diego
+**Notes:**  
+This capture preserves a contemporary sapphic community event listing hosted through a commercial event platform.
+
+---
+
+# SDLD-006 — The WORD San Diego Volume 3 Issue 7
 
 **Original URL:**  
 https://heyzine.com/flip-book/thewordsd-v3i7
 
-**Material Type:**  
-Digital publication / community newsletter
+**Creator:** The WORD San Diego
 
-**Preservation Format:**  
-WARC 1.1 (ISO 28500:2017)
+**Material Type:** Digital publication / community newsletter
 
-**Capture Tool:**  
-ArchiveWeb.page 0.16.2
+**Validation Result:** Successful
 
-**Replay Tool:**  
-ReplayWeb.page
+The WARC file successfully replayed in ReplayWeb.page. The captured publication interface, underlying PDF, and associated visual resources loaded successfully.
 
-**Capture Date:**  
-2026-07-29
-
----
-
-## Validation Procedure
-
-The preserved WARC file was loaded into ReplayWeb.page to verify successful replay of the captured Heyzine flipbook publication.
-
-Validation included:
-
-- loading the WARC file successfully
-- accessing the captured Heyzine URL
-- verifying successful retrieval of the underlying publication PDF
-- confirming associated images, scripts, and interface resources were captured
-- confirming publication content remained accessible through the replay environment
-
----
-
-## Validation Result
-
-**Status:** Successful
-
-The WARC file successfully loaded in ReplayWeb.page. The captured Heyzine publication resources, including the underlying PDF file and associated visual assets, were successfully replayed.
-
----
-
-## Notes
-
-This capture demonstrates preservation of a third-party hosted digital publication. Although the publication was presented through an interactive flipbook interface, the underlying PDF publication file was successfully captured as part of the web archive.
-
-The item documents contemporary San Diego lesbian and LGBTQ+ community history through a community-produced publication. Preservation of this resource mitigates risks associated with third-party hosting platforms, link rot, and changes to digital publication services.
-
-# SDLD-005 Replay Validation
-
-## Resource
-On The Spot Dating Show: Sapphic Singles Event  
-Original URL: https://www.eventbrite.com/e/on-the-spot-dating-show-sapphic-singles-event-tickets-1992263728442
-
-## Capture Format
-WARC 1.1
-
-## Validation Date
-2026-07-29
-
-## Replay Environment
-ReplayWeb.page 0.16.2
-
-## Validation Results
-
-The archived WARC file was successfully opened in ReplayWeb.page. The captured Eventbrite resource loaded and preserved the underlying webpage source and structured event metadata.
-
-The replay capture successfully preserved:
-- Event title
-- Event description
-- Organizer information
-- Venue information
-- Event date and time
-- Structured Schema.org event metadata
-- FAQ and event detail data embedded within the webpage source
-
-## Limitations
-
-The Eventbrite webpage relies heavily on JavaScript rendering. During replay, the initial webpage interface briefly loaded before transitioning to the captured HTML and embedded scripts rather than maintaining the full interactive Eventbrite interface.
-
-Dynamic features including ticket purchasing, authentication, analytics, and third-party integrations were not considered preservation priorities.
-
-## Assessment
-
-Replay validation successful. The WARC file preserves sufficient content to document the event listing as contemporary San Diego lesbian community digital records.
+**Notes:**  
+This capture preserves a community-produced digital publication hosted through a third-party flipbook platform. The record documents contemporary San Diego lesbian and LGBTQ+ community history while mitigating risks associated with platform changes and link rot.
