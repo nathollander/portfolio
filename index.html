@@ -24,12 +24,12 @@
         <section id="page-home" class="page active">
             <div class="hero">
                 <h1>Digital Preservation & Systems Portfolio</h1>
-                <p>Hello! I am an MLIS student specializing in archives, preservation, and community-centered digital stewardship. This website showcases my technical implementation of archival metadata schemas, digital preservation guardrails, and web archiving strategies.</p>
+                <p>Hello! I am an MLIS student specializing in archives, preservation, and community-centered digital stewardship. This website showcases technical workflows for audiovisual metadata, digital preservation, and web archiving developed through archival case studies. Each project includes documentation, metadata records, preservation workflows, and repository structures designed to reflect real-world archival practice.</p>
                 <p>Use the navigation tabs above to browse my live case studies.</p>
             </div>
             <h2>Core Technical Expertise</h2>
             <ul>
-                <li><strong>Standards:</strong> DACS, EAD XML, PBCore, Dublin Core, Homosaurus Vocabulary</li>
+                <li><strong>Standards:</strong> DACS, EAD XML, PBCore, Dublin Core, BagIt (RFC 8493), Homosaurus Vocabulary</li>
                 <li><strong>Systems:</strong> ArchivesSpace, Omeka S, Git Version Control</li>
                 <li><strong>Web Coding:</strong> HTML5, CSS3, JavaScript</li>
             </ul>
@@ -42,42 +42,42 @@
             <!-- Contextual Introduction Block -->
             <div style="background: #edf2f7; padding: 1.5rem; border-radius: 6px; margin-bottom: 2rem;">
                 <p style="margin-bottom: 0; font-size: 1rem; color: #4a5568;">
-                    <strong>Archival Context:</strong> Independent community archives often handle rapid, high-volume ingestions of fragile media formats with lean staffing models. The case studies below demonstrate my practical competency in building programmatic preservation guardrails. Each module acts as a reproducible template for stabilizing incoming collections, protecting data integrity, and expanding community access pathways.
-                </p>
+<strong>Archival Context:</strong> Community archives frequently steward unique and vulnerable materials with limited staffing and technical infrastructure. The case studies below demonstrate practical preservation workflows for describing, stabilizing, and providing access to digital and audiovisual collections using established archival standards and tools.                </p>
             </div>
 
             <!-- CASE STUDY 1 -->
         <!-- CASE STUDY 1 -->
 <div class="card">
     <h2>1. Audiovisual Cataloging using PBCore</h2>
-    <p><strong>Objective:</strong> Apply structured audiovisual metadata standards to document the relationship between original analog carriers and digital derivatives while improving discovery of community-based archival recordings.</p>
+    <p><strong>Objective:</strong> Apply structured audiovisual metadata standards to document the relationship between original analog carriers and digital derivatives while improving discovery and long-term stewardship of community archival recordings.</p>
     <p><strong>Context & Why It Matters:</strong> Audiovisual materials require specialized metadata to preserve both their technical characteristics and cultural context. This workflow applies the PBCore metadata standard to a digitized interview collection from <em>Lambda Archives of San Diego</em>, incorporating descriptive metadata, contributor information, technical instantiation details, rights documentation, and community-centered subject terminology using Homosaurus.</p>
     
     <p style="font-size: 0.95rem; margin-bottom: 0.5rem;"><strong>Metadata Structure:</strong></p>
-<pre>slightly-older-lesbians-interviews/
-├── source-metadata/          # Original repository description & provenance
-├── documentation/            # Mapping, technical metadata & preservation notes
-├── pbcore/                   # PBCore XML metadata record
-│   └── slightly-older-lesbians-interviews.xml
-└── README.md                 # Workflow overview & methodology</pre>
+<pre>pbcore-audiovisual-cataloging/
+├── README.md                # Project overview & metadata methodology
+└── slightly-older-lesbians-interviews/
+    ├── source-metadata/     # Original repository metadata & provenance
+    ├── documentation/       # Metadata mapping, technical characterization & preservation notes
+    └── pbcore/              # Structured PBCore XML metadata record</pre>
 
 <a href="https://github.com/nathollander/portfolio/tree/main/projects/pbcore-audiovisual-cataloging/slightly-older-lesbians-interviews" target="_blank" style="display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: var(--accent); color: var(--white); text-decoration: none; border-radius: 4px; font-weight: 500; font-size: 0.9rem;">Explore Full Case Study Repository on GitHub →</a>
 </div>
                  <!-- CASE STUDY 2 -->
             <div class="card">
                 <h2>2. Digital Preservation & Ingest using BagIt</h2>
-                <p><strong>Objective:</strong> Ensure baseline file integrity and safe transfers for incoming digitized community collections, protecting files against bit rot.</p>
+                <p><strong>Objective:</strong> Ensure baseline file integrity and safe transfers for incoming digitized community collections, protecting files against corruption and unintended alteration during ingest and transfer.</p>
                 <p><strong>Context & Why It Matters:</strong> Digital materials are profoundly fragile; files can silently corrupt over time simply by being moved between drives. This workflow utilizes the Library of Congress BagIt specification (RFC 8493) to wrap archival digital objects from the <em>Lydia R. Otero Archive at Los Angeles Public Library Special Collections</em> into a secure preservation package, embedding cryptographic fingerprints (SHA-256) to verify data fixity upon ingest.</p>
                 
                 <p style="font-size: 0.95rem; margin-bottom: 0.5rem;"><strong>Directory Architecture:</strong></p>
 <pre>lydia_otero_digital_preservation_demo/
-├── 01_source_metadata/      # Descriptive metadata & inventory logs
-├── 03_bag/                  # Structured preservation package
-│   ├── bagit.txt            # Declares RFC 8493 formatting
-│   ├── manifest-sha256.txt  # SHA-256 fixity check fingerprints
-│   └── data/                # Payload (Digitized archival ephemera)
-├── 04_documentation/        # Provenance records & validation logs
-└── 05_screenshots/          # Controlled fixity check test results</pre>
+├── 01_source_metadata/      # Collection inventory spreadsheet
+├── 02_original_files/       # Original digitized image files
+├── 03_bag/                  # BagIt preservation packages
+│   ├── lydia_otero_digital_preservation_demo/
+│   └── lydia_otero_fixity_test/
+├── 04_documentation/        # Metadata, provenance & validation reports
+├── 05_screenshots/          # Bag validation & fixity test results
+└── README.md                # Workflow overview & methodology</pre>
                 
                 <a href="https://github.com/nathollander/portfolio/tree/main/projects/digital-preservation" target="_blank" style="display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: var(--accent); color: var(--white); text-decoration: none; border-radius: 4px; font-weight: 500; font-size: 0.9rem;">Explore Full Case Study Repository on GitHub →</a>
             </div>  
@@ -85,18 +85,16 @@
 <!-- CASE STUDY 3 -->
 <div class="card">
     <h2>3. Web Archiving & Born-Digital Community Records</h2>
-    <p><strong>Objective:</strong> Capture, preserve, and document publicly accessible born-digital records that represent contemporary community history and cultural activity.</p>
+    <p><strong>Objective:</strong> Capture, preserve, and document publicly accessible born-digital materials documenting contemporary community history.</p>
     <p><strong>Context & Why It Matters:</strong> Increasingly, community histories exist across social media platforms, event websites, digital publications, and other online spaces vulnerable to disappearance. This workflow demonstrates the appraisal, capture, preservation, and validation of web-based community records using WARC files, metadata documentation, and replay verification.</p>
        <p style="font-size: 0.95rem; margin-bottom: 0.5rem;"><strong>Directory Architecture:</strong></p>
 <pre>san-diego-lesbian-community-digital-records/
 ├── appraisal/              # Selection criteria & appraisal decisions
-├── captures/               # Preserved digital captures
-│   ├── warc/               # WARC web archive files
-│   └── images/             # Preserved digital images
+├── captures/               # Preserved born-digital community records
 ├── metadata/               # Item-level descriptive metadata
 ├── preservation/           # Checksums & preservation documentation
-├── documentation/          # Workflow & replay validation logs
-└── rights/                 # Rights and ethical considerations/pre>
+├── documentation/          # Capture workflows & replay validation logs
+└── rights/                 # Rights statements & ethical considerations</pre>
     <a href="https://github.com/nathollander/portfolio/tree/main/projects/web-archiving/san-diego-lesbian-community-digital-records" target="_blank" style="display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: var(--accent); color: var(--white); text-decoration: none; border-radius: 4px; font-weight: 500; font-size: 0.9rem;">Explore Full Case Study Repository on GitHub →</a>
 </div>
 
@@ -106,14 +104,15 @@
         <!-- ABOUT & CONTACT PAGE LAYER -->
         <section id="page-about" class="page">
             <h1>About Me</h1>
-            <p>I will graduate with my Master of Library and Information Science (MLIS) in December of 2026, with coursework concentrating in archives and preservation. In my projects,I focus heavily on the intersection of technical infrastructure and ethical curation, especially within LGBTQ+ community history initiatives.</p>
-            <p>You can view my website <a href="https://nathollanderportfolio.wordpress.com" target="_blank">here</a></li> </p>
+            <p>I am an MLIS student specializing in archives, preservation, and digital stewardship. My work focuses on applying technical standards and preservation workflows to community-based collections, with particular interests in LGBTQ+ histories, audiovisual materials, and born-digital archives.</p>
+        <p>I will graduate in December 2026 from San José State University with a specialization in Archives and Preservation.</p>
+            <p>You can view my broader archival and public history portfolio<a href="https://nathollanderportfolio.wordpress.com" target="_blank">here</a></li> </p>
 
             <h2>Let's Connect</h2>
-            <p>I am looking to bring my processing, web layout, and metadata skills to forward-thinking repositories and community archives. My areas of expertise are LGBTQ+ histories and bilingual (Spanish/English) collections.</p>
+            <p>I am interested in opportunities in archives, digital preservation, metadata, and community-based cultural heritage work. I have experience working with LGBTQ+ histories, audiovisual materials, and bilingual (Spanish/English) collections.My areas of expertise are LGBTQ+ histories and bilingual (Spanish/English) collections.</p>
             <ul>
                 <li><strong>Email:</strong> <a href="mailto:loremipsumfan@proton.me">loremipsumfan@proton.me</a></li>
-                <li><strong>Return to my Github Profile:</strong> <a href="https://github.com/nathollander/portfolio" target="_blank">https://github.com/nathollander/portfolio</a></li>
+                <li><strong>View the complete GitHub repository:</strong> <a href="https://github.com/nathollander/portfolio" target="_blank">https://github.com/nathollander/portfolio</a></li>
             </ul>
         </section>
     </main>
