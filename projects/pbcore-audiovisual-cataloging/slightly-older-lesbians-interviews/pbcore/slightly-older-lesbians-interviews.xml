@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pbcoreDescriptionDocument 
-    xmlns="http://pbcore.org/xsd/pbcore-2.1.xsd"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+xmlns="http://www.pbcore.org/PBCore/PBCoreNamespace.html"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
     <!-- 1. Identifiers always come first -->
     <pbcoreIdentifier source="Local Identifier">PB-1991-SOL-001</pbcoreIdentifier>
@@ -15,7 +15,7 @@
     </pbcoreAssetDate>
 
     <!-- 4. Descriptions -->
-    <pbcoreDescription>Participants discuss lesbian community life, veteran activism, the impact of the AIDS crisis, racial discrimination within LGBTQ+ communities, lesbian health advocacy, feminist music, artistic practice, and lesbian archival work.</pbcoreDescription>
+    <pbcoreDescription><pbcoreDescription>Interviews with members of Slightly Older Lesbians, a San Diego-based lesbian social organization. Participants discuss lesbian community life, veteran activism, the impact of the AIDS crisis, racial discrimination within LGBTQ+ communities, lesbian health advocacy, feminist music, artistic practice, and lesbian archival work.</pbcoreDescription></pbcoreDescription>
 
     <!-- 5. Subjects grouped together -->
     <pbcoreSubject source="Homosaurus">Lesbian community</pbcoreSubject>
