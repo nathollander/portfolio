@@ -86,15 +86,15 @@ ReplayWeb.page
 
 ## Validation Procedure
 
-The preserved WARC file was loaded into ReplayWeb.page to verify successful rendering of the captured interactive publication.
+The preserved WARC file was loaded into ReplayWeb.page to verify successful replay of the captured Heyzine flipbook publication.
 
 Validation included:
 
 - loading the WARC file successfully
-- opening the captured Heyzine flipbook URL
-- verifying that publication pages rendered within the replay environment
-- confirming that text and visual content were accessible
-- confirming that the captured publication remained viewable without relying on the live Heyzine platform
+- accessing the captured Heyzine URL
+- verifying successful retrieval of the underlying publication PDF
+- confirming associated images, scripts, and interface resources were captured
+- confirming publication content remained accessible through the replay environment
 
 ---
 
@@ -102,12 +102,12 @@ Validation included:
 
 **Status:** Successful
 
-The WARC file successfully replayed in ReplayWeb.page. The captured flipbook publication was accessible and preserved the interactive digital publication format, including page-based viewing and visual content.
+The WARC file successfully loaded in ReplayWeb.page. The captured Heyzine publication resources, including the underlying PDF file and associated visual assets, were successfully replayed.
 
 ---
 
 ## Notes
 
-This capture demonstrates preservation of a third-party hosted digital publication. The item documents contemporary San Diego lesbian and LGBTQ+ community history through a publicly accessible newsletter-style publication.
+This capture demonstrates preservation of a third-party hosted digital publication. Although the publication was presented through an interactive flipbook interface, the underlying PDF publication file was successfully captured as part of the web archive.
 
-Because third-party platforms may change, restrict access, or discontinue hosting services, WARC capture preserves a snapshot of the publication as it existed at the time of collection.
+The item documents contemporary San Diego lesbian and LGBTQ+ community history through a community-produced publication. Preservation of this resource mitigates risks associated with third-party hosting platforms, link rot, and changes to digital publication services.
