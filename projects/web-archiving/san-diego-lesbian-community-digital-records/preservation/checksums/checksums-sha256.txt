@@ -4,6 +4,7 @@ Collection: San Diego Lesbian Community Digital Records, Spring–Summer 2026
 Generated: 2026-07-29
 
 SHA-256                                                           Filename
+fe661b6af48d352a9df3366d73515317d52e23d6f1b681ab02fa3652f42ccf22  SDLD-001_lesbian-film-club-drive-away-dolls.warc
 59ea332ac55f9b0697a7381e817244edb22f6a21222b73aefc0de482db04a896  SDLD-002_gossipgrill_pride-event.warc
 fc840b752123dc598a41272bc2b2cf26278a20ccae825bf9e90ebeac35931341  sdld-003_sandiegopride_dyke-march-reel.warc
 81cb5366b50eeed0925260071f96d3648a231db52e39148a73936b4e6d213181  SDLD-004_sdlgbtcenter_lesbian-cafe-flyer.png
