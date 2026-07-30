@@ -46,3 +46,7 @@ San Diego, California, United States
 
 Genre:
 Filmed interviews
+
+## Content Summary
+
+This recording contains interviews with members of Slightly Older Lesbians, a San Diego-based social organization. Interview participants discuss lesbian community life, LGBTQ+ veteran organizing, the AIDS crisis, racial discrimination, lesbian health activism, feminist music, and lesbian archival work.
