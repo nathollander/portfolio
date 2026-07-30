@@ -12,6 +12,10 @@ The exhibit, **"Lesbian Print Culture in Los Angeles, 1947–1999,"** explores h
 
 Using Omeka Classic, I created a small digital collection that demonstrates how archival materials can be described, organized, and interpreted through a digital collections platform.
 
+## Walkthrough Video
+
+[https://www.youtube.com/watch?v=qTQbAV0d_jU]
+
 ## Technical Workflow Demonstrated
 
 The walkthrough video demonstrates:
@@ -52,9 +56,6 @@ Item records were created using Dublin Core metadata fields including:
 
 Metadata decisions were made with attention to archival context, discoverability, and the relationship between original physical materials and their digital representations.
 
-## Walkthrough Video
-
-[https://www.youtube.com/watch?v=qTQbAV0d_jU]
 
 ## Skills Demonstrated
 
