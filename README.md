@@ -21,7 +21,7 @@ https://nathollander.github.io/portfolio/
 
 ## Project Directory & Case Studies
 
-This repository contains reproducible archival workflows demonstrating practical applications of digital preservation and metadata standards.
+This repository contains reproducible archival workflows demonstrating practical applications of digital preservation, metadata standards, digital collections management, and web-based access systems.
 
 ### `/projects/pbcore-audiovisual-cataloging`
 
@@ -61,6 +61,17 @@ This repository contains reproducible archival workflows demonstrating practical
 **Tools & Standards:** ArchiveWeb.page, ReplayWeb.page, WARC
 
 ---
+
+/projects/omeka-walkthrough
+Focus: Digital collections management and exhibit development using Omeka Classic.
+
+Workflow demonstrates:
+
+Building a locally hosted digital collections environment using MAMP, Apache, PHP, and MySQL
+Creating item records and applying Dublin Core metadata to archival digital objects
+Organizing digital materials into collections and constructing a public-facing digital exhibit
+Documenting the relationship between archival materials, digital surrogates, and interpretive storytelling
+Tools & Standards: Omeka Classic, Dublin Core Metadata Element Set, MAMP, MySQL, phpMyAdmin
 
 ## About This Repository
 
