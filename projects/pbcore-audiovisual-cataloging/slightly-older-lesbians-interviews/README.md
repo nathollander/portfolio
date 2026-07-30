@@ -80,17 +80,17 @@ The workflow included:
 
 ## Repository Structure
 ```text
-slightly-older-lesbians-interviews/
-├── source-metadata/
-│   └── source-record.md
-├── digital-object/
-│   └── PB-1991-SOL-001_access-copy.mp4
-├── documentation/
-│   ├── pbcore-mapping.md
-│   ├── technical-metadata.md
-│   └── preservation-notes.md
-└── pbcore/
-    └── slightly-older-lesbians-interviews.xml
+pbcore-audiovisual-cataloging/
+└── slightly-older-lesbians-interviews/
+    ├── README.md
+    ├── source-metadata/
+    │   └── source-record.md
+    ├── documentation/
+    │   ├── pbcore-mapping.md
+    │   ├── technical-metadata.md
+    │   └── preservation-notes.md
+    └── pbcore/
+        └── slightly-older-lesbians-interviews.xml
 ```
 
 
