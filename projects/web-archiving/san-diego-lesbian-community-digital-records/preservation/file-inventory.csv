@@ -1,5 +1,6 @@
 Identifier,Filename,File Format,Checksum Algorithm,Checksum
-SDLD-004,SDLD-004_sdlgbtcenter_lesbian-cafe-flyer.png,PNG,SHA-256,81cb5366b50eeed0925260071f96d3648a231db52e39148a73936b4e6d213181
 SDLD-002,SDLD-002_gossipgrill_pride-event.warc,WARC 1.1,SHA-256,59ea332ac55f9b0697a7381e817244edb22f6a21222b73aefc0de482db04a896
 SDLD-003,sdld-003_sandiegopride_dyke-march-reel.warc,WARC 1.1,SHA-256,fc840b752123dc598a41272bc2b2cf26278a20ccae825bf9e90ebeac35931341
+SDLD-004,SDLD-004_sdlgbtcenter_lesbian-cafe-flyer.png,PNG,SHA-256,81cb5366b50eeed0925260071f96d3648a231db52e39148a73936b4e6d213181
+SDLD-005,SDLD-005_eventbrite_sapphic-singles-event.warc,WARC 1.1,SHA-256,d372689d57cabb168241499f48ff75c3df5146aaa9f52694303f088785e0f2d7
 SDLD-006,SDLD-006_wordsd_volume3issue7.warc,WARC 1.1,SHA-256,a1f332b798e6d2d0e749f7f1d5afda0e02c73929032ba6df4d79478b978fde4d
