@@ -73,6 +73,25 @@ Organizing digital materials into collections and constructing a public-facing d
 Documenting the relationship between archival materials, digital surrogates, and interpretive storytelling
 Tools & Standards: Omeka Classic, Dublin Core Metadata Element Set, MAMP, MySQL, phpMyAdmin
 
+### Southern California Lesbian Archives Project (SCLAP)
+
+**Focus:** Digital public history, metadata design, and community-centered digital collections development using Omeka S.
+
+SCLAP is a digital public history project documenting Southern California lesbian histories through archival research, structured metadata, controlled vocabularies, and place-based discovery.
+
+**Workflow demonstrates:**
+- Designing Omeka S Resource Templates for digital objects, people, organizations, and historic community spaces
+- Applying Dublin Core metadata standards within a digital collections environment
+- Developing metadata schemas that balance linked-data authority terms with community-specific description
+- Implementing controlled vocabularies using Homosaurus linked-data terms and SCLAP-specific subject terminology
+- Documenting metadata decisions, archival sources, and descriptive practices
+- Building a sustainable digital collections workflow using open-source tools
+
+**Tools & Standards:** Omeka S, Dublin Core Metadata Element Set, Homosaurus Vocabulary, controlled vocabularies, Docker, GitHub Version Control
+
+**Repository:**  
+[github.com/yourusername/sclap-omeka](https://github.com/nathollander/sclap)
+
 ## About This Repository
 
 These case studies focus on the intersection of technical infrastructure and ethical archival practice, particularly within community-based collections. Each workflow emphasizes sustainable preservation practices while maintaining the historical context and cultural meaning of archival materials.
