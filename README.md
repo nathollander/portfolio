@@ -62,16 +62,17 @@ This repository contains reproducible archival workflows demonstrating practical
 
 ---
 
-/projects/omeka-walkthrough
-Focus: Digital collections management and exhibit development using Omeka Classic.
+### `/projects/omeka-walkthrough`
 
-Workflow demonstrates:
+**Focus:** Digital collections management and exhibit development using Omeka Classic.
 
-Building a locally hosted digital collections environment using MAMP, Apache, PHP, and MySQL
-Creating item records and applying Dublin Core metadata to archival digital objects
-Organizing digital materials into collections and constructing a public-facing digital exhibit
-Documenting the relationship between archival materials, digital surrogates, and interpretive storytelling
-Tools & Standards: Omeka Classic, Dublin Core Metadata Element Set, MAMP, MySQL, phpMyAdmin
+**Workflow demonstrates:**
+
+- Building a locally hosted digital collections environment using MAMP, Apache, PHP, and MySQL
+- Creating item records and applying Dublin Core metadata to archival digital objects
+- Organizing digital materials into collections and constructing a public-facing digital exhibit
+- Documenting the relationship between archival materials, digital surrogates, and interpretive storytelling
+- Tools & Standards: Omeka Classic, Dublin Core Metadata Element Set, MAMP, MySQL, phpMyAdmin
 
 ### Southern California Lesbian Archives Project (SCLAP)
 
