@@ -2,7 +2,7 @@
 
 Welcome to my professional portfolio repository. I am a current Master of Library and Information Science (MLIS) student specializing in archives, preservation, and community-centered digital stewardship.
 
-This repository contains the source code for my portfolio website and documents technical archival workflows demonstrating metadata creation, digital preservation practices, audiovisual description, and web archiving methodologies.
+This repository documents archival technology workflows demonstrating metadata design, digital preservation practices, audiovisual description, web archiving methodologies, and digital collections development.
 
 **View the live portfolio website:**  
 https://nathollander.github.io/portfolio/
