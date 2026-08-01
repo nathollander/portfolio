@@ -91,7 +91,7 @@ SCLAP is a digital public history project documenting Southern California lesbia
 **Tools & Standards:** Omeka S, Dublin Core Metadata Element Set, Homosaurus Vocabulary, controlled vocabularies, Docker, GitHub Version Control
 
 **Repository:**  
-[github.com/yourusername/sclap-omeka](https://github.com/nathollander/sclap)
+[github.com/nathollander/sclap-omeka](https://github.com/nathollander/sclap)
 
 ## About This Repository
 
