@@ -148,9 +148,8 @@ For community archives and smaller collecting organizations, accessible preserva
 ---
 
 # Repository Contents
-# Repository Contents
 
-The full project files and sub-directories can be viewed in the [Lydia Otero BagIt Project folder](https://github.com).
+The full project files and sub-directories can be viewed in the [Lydia Otero BagIt Project folder](https://github.com/nathollander/lydia-otero-bagit-preservation-workflow/tree/main/Lydia_Otero_Bagit_Project%20copy).
 
 ```text
 ├── 01_source_metadata/
@@ -166,6 +165,7 @@ The full project files and sub-directories can be viewed in the [Lydia Otero Bag
 │   └── data/
 │
 ├── 04_documentation/
+│   ├── metadata-notes.md
 │   ├── provenance.md
 │   ├── workflow.md
 │   └── validation_report.md
